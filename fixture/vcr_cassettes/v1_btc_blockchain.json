@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "recv_timeout": 60000,
+        "connect_timeout": 60000
+      },
+      "request_body": "",
+      "url": "https://api.blockcypher.com/v1/btc/test3"
+    },
+    "response": {
+      "body": "{\n  \"name\": \"BTC.test3\",\n  \"height\": 1208086,\n  \"hash\": \"000000000000000ec66a83c1fdd462c32ab07220ef1f10cb412ac3d4e0077d3b\",\n  \"time\": \"2017-10-05T22:02:01.093170351Z\",\n  \"latest_url\": \"https://api.blockcypher.com/v1/btc/test3/blocks/000000000000000ec66a83c1fdd462c32ab07220ef1f10cb412ac3d4e0077d3b\",\n  \"previous_hash\": \"000000000000013910378111d959ab882929a61758ab34c9ed047db55a9495c2\",\n  \"previous_url\": \"https://api.blockcypher.com/v1/btc/test3/blocks/000000000000013910378111d959ab882929a61758ab34c9ed047db55a9495c2\",\n  \"peer_count\": 204,\n  \"unconfirmed_count\": 162,\n  \"high_fee_per_kb\": 10099,\n  \"medium_fee_per_kb\": 10099,\n  \"low_fee_per_kb\": 10099,\n  \"last_fork_height\": 1202719,\n  \"last_fork_hash\": \"000000008f00812876fc482ed3a874364f8ba5b3f790ae28b3a2e668a0300399\"\n}",
+      "headers": {
+        "Server": "nginx/1.13.4",
+        "Date": "Thu, 05 Oct 2017 22:04:28 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "774",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "X-Ratelimit-Remaining": "99"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]

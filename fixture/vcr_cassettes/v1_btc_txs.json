@@ -1,0 +1,31 @@
+[
+  {
+    "request": {
+      "body": "",
+      "headers": [],
+      "method": "get",
+      "options": {
+        "recv_timeout": 60000,
+        "connect_timeout": 60000
+      },
+      "request_body": "",
+      "url": "https://api.blockcypher.com/v1/btc/test3/txs/ed52d40cf4b0695e0c99dc99d7bac032cfdc12a569225422d71dc61e2e44fce4"
+    },
+    "response": {
+      "body": "{\n  \"block_hash\": \"0000000024e396f1ab722e7cf4dbc24cfa4ede1bbfd13f272d8a9749a7304327\",\n  \"block_height\": 1203013,\n  \"block_index\": 81,\n  \"hash\": \"ed52d40cf4b0695e0c99dc99d7bac032cfdc12a569225422d71dc61e2e44fce4\",\n  \"addresses\": [\n    \"mvAC9cFCctBbUHz4Lj1pAp1PcxKJQ56nRW\"\n  ],\n  \"total\": 1532193843,\n  \"fees\": 113000,\n  \"size\": 191,\n  \"preference\": \"high\",\n  \"confirmed\": \"2017-10-04T08:11:23Z\",\n  \"received\": \"2017-10-04T08:11:23Z\",\n  \"ver\": 2,\n  \"double_spend\": false,\n  \"vin_sz\": 1,\n  \"vout_sz\": 1,\n  \"confirmations\": 5074,\n  \"confidence\": 1,\n  \"inputs\": [\n    {\n      \"prev_hash\": \"8dde517a15d93a9a281770bff634367229d51935f3247e94f4e66f2a2702753f\",\n      \"output_index\": 1,\n      \"script\": \"473044022056fae244b5ffc574ea4911cb917109a815f8c0b03d67085af445f93785b8945202200ecf226ada6ae09373b9382e4ae40f609ed474dc97e0d5012fe7e0427cc96e8d01210262f06bc1adcf423080c494158472c9bf81b1b1bba4c89e4c42fbd6a9660243cb\",\n      \"output_value\": 1532306843,\n      \"sequence\": 4294967295,\n      \"addresses\": [\n        \"mvAC9cFCctBbUHz4Lj1pAp1PcxKJQ56nRW\"\n      ],\n      \"script_type\": \"pay-to-pubkey-hash\",\n      \"age\": 1203013\n    }\n  ],\n  \"outputs\": [\n    {\n      \"value\": 1532193843,\n      \"script\": \"76a914a09cb7745b74eaff5a9f71b8b85e3e4ee8df53c188ac\",\n      \"addresses\": [\n        \"mvAC9cFCctBbUHz4Lj1pAp1PcxKJQ56nRW\"\n      ],\n      \"script_type\": \"pay-to-pubkey-hash\"\n    }\n  ]\n}",
+      "headers": {
+        "Server": "nginx/1.13.4",
+        "Date": "Thu, 05 Oct 2017 22:04:28 GMT",
+        "Content-Type": "application/json",
+        "Content-Length": "1368",
+        "Connection": "keep-alive",
+        "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept",
+        "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE",
+        "Access-Control-Allow-Origin": "*",
+        "X-Ratelimit-Remaining": "0"
+      },
+      "status_code": 200,
+      "type": "ok"
+    }
+  }
+]
